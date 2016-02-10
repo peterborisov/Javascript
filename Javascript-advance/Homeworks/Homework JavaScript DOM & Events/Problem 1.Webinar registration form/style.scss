@@ -1,0 +1,48 @@
+body, #wrapper, input, label,h1 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  #wrapper {
+    div{
+      height:185px;
+    }
+    font-family: Arial,sans-serif;
+    background: #FFF7F0;
+    width: 300px;
+    height: 560px;
+    margin: 0px auto;
+    font-weight: lighter;
+    h1{
+      font-size: 16px;
+      text-align: center;
+      padding-top: 10px;
+      margin-bottom: 20px;
+    }
+    form {
+      width: 55%;
+      margin: 0px auto;
+      label{
+        font-size: 13px;
+      }
+      input {
+        display: block;
+        text-align: center;
+        font-weight: 100;
+      }
+      #myCheckbox{
+        float: left;
+        margin-right: 5px;
+        margin-top: 3px;
+      }
+      #date{
+        width: 85%;
+      }
+    }
+    #reg{
+      margin-left: 68px;
+    }
+  }
+}
