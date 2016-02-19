@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>get the website URL</title>
+</head>
+<body>
+<button onclick="getUrl()">Get URL address</button>
+<script >
+    function getUrl(){
+      var location= window.location.href;
+        document.getElementById("demo").innerHTML="Current URL is: "+location;
+    }
+</script>
+<p id="demo"></p>
+</body>
+</html>

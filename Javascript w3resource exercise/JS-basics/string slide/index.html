@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript basic animation</title>
+    <script type="text/javascript">
+    </script>
+</head> <body onload="animate_string('target')">
+<pre id="target" style="font-family: Arial ;font-size: 80px ; color: #1C86C0; margin: 0 auto;
+width: 560px; height: 100px">Test Animation </pre>
+<script >function animate_string(id)
+{
+    var element = document.getElementById(id);
+    var textNode = element.childNodes[0]; // assuming no other children
+    var text = textNode.data;
+
+    setInterval(function ()
+    {
+        text = text[text.length - 1] + text.substring(0, text.length - 1);
+        textNode.data = text;
+    }, 500);
+}</script>
+</body>
+</html>
