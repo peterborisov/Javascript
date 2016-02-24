@@ -1,0 +1,52 @@
+#wrapper{
+    width: 960px;
+    margin: 50px auto;
+    height: 500px;
+    text-align: center;
+}
+
+#wrapper div{
+    vertical-align: middle;
+}
+
+#left-button-container, #right-button-container, #images-container{
+    display: inline-block;
+}
+
+#images-container{
+    height: 100%;
+    border: none;
+}
+
+.image{
+    width: 800px;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+
+body{
+    background: black;
+    font-size: 25px;
+}
+
+#button-left{
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#button-right{
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#button-left:active{
+    position: relative;
+    right: 2px;
+}
+
+#button-right:active{
+    position: relative;
+    left: 2px;
+}

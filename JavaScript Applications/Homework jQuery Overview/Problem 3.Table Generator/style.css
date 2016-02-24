@@ -1,0 +1,33 @@
+
+#cars {
+    border: 1px solid;
+    width: 80%;
+    margin: 0px auto;
+}
+
+#cars tr {
+    border: 1px solid black;
+    width: 20px;
+}
+
+#cars td {
+    width: 500px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.info {
+    background: forestgreen;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+#button{
+    margin-bottom: 50px;
+}

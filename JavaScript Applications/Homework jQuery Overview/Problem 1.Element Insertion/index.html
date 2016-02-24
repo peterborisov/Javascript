@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("<h4 style='color: blue;margin: 5px'>h4 after paragraph!</h4>").insertAfter("p");
+                $("<h4 style='color: deepskyblue;margin: 5px'>h4 before paragraph!</h4>").insertBefore("p");
+            });
+        });
+    </script>
+</head>
+<body>
+
+<button>Insert "h4" element before and after "p" element</button>
+<p style="font-size: 40px;color: green">This is a Main paragraph.</p>
+
+</body>
+</html>
