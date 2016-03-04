@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>append element</title>
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+<script>
+    function main() {
+        var btn = document.createElement("h1");
+        var t = document.createTextNode("Test");
+        btn.appendChild(t);
+        document.body.appendChild(btn);
+    }
+</script>
+<p>jQuery code to append element (and all of its contents) dynamically to the body element..</p>
+<button id="demo" onclick="main()" style="margin-bottom: 30px">Start</button>
+<input id="input" type="text">
+
+</body>
+</html>

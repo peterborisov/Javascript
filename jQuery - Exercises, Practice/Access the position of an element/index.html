@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Access the position of an element</title>
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+<script>
+    $(document).ready(function () {
+        $(function () {
+            $("div").click(function () {
+                var position = $("div").position();
+                $("p").text("Left : " + position.left + ", Top : " + position.top);
+            });
+        });
+    })
+</script>
+<div style="height:75px;width:200px;padding:20px;margin:0px auto;border:1px solid blue;background-color:#F3E2A9;">
+</div>
+<p></p>
+</body>
+</html>

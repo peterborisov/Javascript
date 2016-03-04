@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animate an element</title>
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+<body style="width: 900px; height: 500px">
+<script>
+    $(document).ready(function () {
+        $("#btn1").click(function main() {
+            var docHeight = $('body').height(),
+                    docWidth = $('body').width(),
+                    $div = $('#box'),
+                    divWidth = $div.width(),
+                    divHeight = $div.height(),
+                    heightMax = docHeight - divHeight,
+                    widthMax = docWidth - divWidth;
+            $div.css({
+                left: Math.floor(Math.random() * widthMax),
+                top: Math.floor(Math.random() * heightMax)
+            });
+            $("#box").fadeIn(500,function(){
+                $(this).animate({'top': '250px'});
+                $( this ).fadeTo( "slow", 0.40 );
+            });
+            $("#box").fadeIn(500,function(){
+                $(this).animate({'left': '150px'});
+                $( this ).fadeTo( "slow", 0.60 );
+            });
+            $("#box").fadeIn(500,function(){
+                $(this).animate({'top': '200px'});
+                $( this ).fadeTo( "fast", 0.80 );
+            });
+            $("#box").fadeIn(500,function(){
+                $(this).animate({'marginLeft': '50px'});
+                $( this ).fadeTo( "fast", 1 );
+            });
+              $('#box').animate({
+             'marginTop': "100px" //moves down
+             }, 150);
+
+             $('#box').animate({
+             'marginLeft': "100px" //moves right
+             }, 150);
+
+             $('#box').animate({
+             'marginTop': "0px" //moves up
+             }, 150);
+             $('#box').animate({
+             'marginLeft': "0px" //moves left
+             }, 150);
+        });
+    });
+</script>
+<script >
+    $(document).ready(function() {
+        $("#hideHandler").click(function() {
+            $("#box").hide(2000);
+        });
+        $("#showHandler").click(function() {
+            $("#box").show(3000);
+        });
+    });
+</script>
+<script >
+    $(document).ready(function() {
+        $("#up").click(function() {
+            $('#box').slideUp();
+        });
+        $("#down").click(function() {
+            $('#box').slideDown(3000);
+        });
+    });
+</script>
+<button id="btn1">Change position</button>
+<button id="hideHandler">Hide</button>
+<button id="showHandler">Show</button>
+<button id="up">Slide Up</button>
+<button id="down">Slide Down</button>
+<div id="box" style=height:100px;width:100px;margin:6px;position:absolute;">
+    <img src="smile.jpg" alt="smile" style="width: 100%;height: 100%">
+</div>
+</body>
+</html>

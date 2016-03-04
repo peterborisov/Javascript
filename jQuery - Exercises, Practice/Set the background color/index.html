@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Set the background color</title>
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+<script>
+    function main() {
+        $("#col").change(function () {
+            $("body").css("background", $("#col").val());
+        }).change();
+    }
+</script>
+<p>Set the background color of a page.</p>
+<input id="col" type="color">
+<button onclick="main()">Start</button>
+
+</body>
+</html>

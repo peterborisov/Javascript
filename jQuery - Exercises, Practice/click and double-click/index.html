@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>click and double-click</title>
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+</head>
+<body>
+<script>
+    $(document).ready(function () {
+        $(function () {
+            $("p").click(function () {
+                $('body').append('<p>This is click<p/>')
+            });
+            $("p").dblclick(function () {
+                $('body').append('<p>This is double click<p/>')
+            });
+        });
+    });
+</script>
+<p>Click me</p>
+</body>
+</html>

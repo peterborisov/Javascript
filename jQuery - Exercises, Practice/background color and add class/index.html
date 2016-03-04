@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>background color of an element</title>
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+<script>
+    $(document).ready(function () {
+        $(function () {
+            $("p").click(function () {
+                var $p = $("p");
+                $( "p" ).addClass( "myClass" );
+                $p.stop()
+                        .css({"background-color": "red", "font-size": "20px", "height": "30px"})
+                        .toggle(2000, function () {
+                            $p.css({"background-color": "lightgreen", "font-size": "20px"})
+                                    .show(2000);
+                        });
+            });
+        });
+    });
+</script>
+<p>Click me</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>all h1 elements</title>
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+<script>
+    function main() {
+        $("div h1").css("background", "skyblue")
+    }
+</script>
+<p> Find all h1 elements that are children of a div element and apply a backgroud to them.</p>
+<button id="test" onclick="main()">Start</button>
+<h1>h1 outside div</h1>
+<div>
+    <h1>div-1</h1>
+    <h1>div-2</h1>
+</div>
+<h1>h1 outside div</h1>
+</body>
+</html>
