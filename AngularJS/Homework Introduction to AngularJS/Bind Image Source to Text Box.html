@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="AngularIntro">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bind Image Source to Text Box</title>
+    <style>
+        body{
+            background: lightgrey;
+        }
+        input {
+            width: 300px;
+            margin-bottom: 50px;
+            border: none;
+        }
+        img{
+            width: 300px;
+            height: 300px;
+            border: none;
+        }
+    </style>
+</head>
+<body ng-controller="BindImage">
+<input type="text" ng-model="imgSrc" placeholder="Enter image URL">
+
+<!--You can use this URL!-->
+<!--http://www.nakov.com/wp-content/uploads/2014/05/SoftUni-Logo.png!-->
+
+<br/>
+<img ng-src="{{imgSrc}}">
+
+<script src="lib/angular.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers.js"></script>
+</body>
+</html>

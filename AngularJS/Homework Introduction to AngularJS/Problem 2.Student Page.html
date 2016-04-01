@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Students</title>
+    <style>
+        p {
+            color: deepskyblue;
+            margin: 0px;
+            font-size: 20px
+        }
+
+        li {
+            font-size: 30px;
+            margin-top: 10px;
+            color: darkblue;
+        }
+    </style>
+    <script src="lib/angular.js"></script>
+    <script src="js/app.js" defer></script>
+    <script src="js/controllers.js" defer></script>
+</head>
+<body ng-app="AngularIntro">
+<div ng-controller="Students">
+    <ul>
+        <li ng-repeat="student in students">{{student.name}}
+            <p>Photo : <img ng-src="{{student.photo}}" width="50"></p>
+            <p >Grade : {{student.grade}}</p>
+            <p>School : {{student.school}}</p>
+            <p>Teacher : {{student.teacher}}</p>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

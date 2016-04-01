@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="video">
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div ng-controller="videoDetails">
+    <h1>Video</h1>
+
+    <article>
+        <ul>
+            <li ng-repeat="s in details">
+                <p class="title"><b>Title</b> : {{s.title}}</p>
+                <p><b>Picture Url</b> : <img ng-src="{{s.pictureUrl}}" width="50"></p>
+                <p><b>Length</b> : {{s.length}}</p>
+                <p><b>Category</b> : {{s.category}}</p>
+                <p><b>Subscribers</b> : {{s.subscribers}}</p>
+                <p><b>Date</b> : {{s.date}}</p>
+                <p><b>Have Subtitles</b> : {{s.haveSubtitles && 'Yes' || 'No'}}</p>
+                <p><b>Comments</b> :
+                    <ul>
+                        <li ng-repeat="c in s.comments">
+                <p>Username : {{c.username}}</p>
+                <p>Content : {{c.content}}</p>
+                <p>Date : {{c.date}}</p>
+                <p>Likes : {{c.likes}}</p>
+                <p class="website">Website Url : {{c.websiteUrl}}</p>
+            </li>
+        </ul>
+        </p>
+        </li>
+        </ul>
+    </article>
+</div>
+
+<script src="js/angular.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
