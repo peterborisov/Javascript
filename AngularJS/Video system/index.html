@@ -7,11 +7,57 @@
 </head>
 <body>
 <div ng-controller="videoDetails">
-    <h1>Video</h1>
+    <h1>Video System</h1>
+
+    <ul class="addVideo">
+        <li id="newVideo" ng-repeat="v in video">
+            <b>New Video: </b><input type="text" ng-model="v.title" placeholder="Video Name" required>
+            <input type="text" ng-model="v.pictureUrl" placeholder="Picture URL:" required>
+            <input type="text" ng-model="v.length" placeholder="Length">
+            <input type="text" ng-model="v.category" placeholder="Category" required>
+            <input type="number" ng-model="v.subscribers" placeholder="Subscribers">
+            <input type="date" ng-model="v.date" placeholder="Date">
+            Subtitles : <input id="subs" type="checkbox" ng-model="v.haveSubtitles"
+                               placeholder="Subtitles /true-false/">
+            <ul class="addComment">
+                <li ng-repeat="c in v.comments">
+                    <b>New Comment: </b><input type="text" ng-model="c.username" placeholder="Username">
+                    <input type="text" ng-model="c.content" placeholder="Content">
+                    <input type="date" ng-model="c.date" placeholder="Date">
+                    <input type="number" ng-model="c.likes" placeholder="Likes">
+                    <input type="text" ng-model="c.websiteUrl" placeholder="Website Url">
+                </li>
+                <li>
+                    <button id="addCommentButton" ng-click="v.comments.push({})">Add Comment for {{v.title}}</button>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <button id="addVideoButton" ng-click="video.push({})">Add Video</button>
+        </li>
+    </ul>
+
+    <div id="search">
+
+        <label for="searchVideo">Search Video: </label><input id="searchVideo" type="text" ng-model="searchVideo"placeholder="Title"/>
+        <label for="searchCategory">Search by category: </label> <input id="searchCategory" type="text"
+                                                                        ng-model="search.category"placeholder="Category Name"/>
+        <label for="searchDate"> Search by date: </label><input id="searchDate" type="date" ng-model="search.date" placeholder="Date"/>
+        <label for="searchHaveSubtitles">Search by having subtitles: </label><input id="searchHaveSubtitles" type="text"
+                                                                                    ng-model="search.haveSubtitles"placeholder="true/false"/>
+        <div>Sort by:
+            <select ng-model='mySortFunction'>
+                <option value="title">Title</option>
+                <option value="length">Length</option>
+                <option value="date">Date</option>
+                <option value="likes">Likes</option>
+            </select>
+        </div>
+    </div>
 
     <article>
         <ul>
-            <li ng-repeat="s in details">
+            <li ng-repeat="s in video| filter:searchVideo |orderBy:mySortFunction |filter:search">
                 <p class="title"><b>Title</b> : {{s.title}}</p>
                 <p><b>Picture Url</b> : <img ng-src="{{s.pictureUrl}}" width="50"></p>
                 <p><b>Length</b> : {{s.length}}</p>
@@ -32,6 +78,8 @@
         </p>
         </li>
         </ul>
+
+
     </article>
 </div>
 

@@ -1,4 +1,39 @@
-
+.addVideo{
+  li{
+    list-style: none;
+    input{
+      width: 100px;
+    }
+  }
+}
+#addCommentButton{
+  width: 200px;
+  height: 50px;
+  background: lightcyan;
+}
+#addVideoButton{
+  width: 500px;
+  height: 50px;
+  background: lightblue;
+}
+.addComment{
+  li{
+    input{
+      display: inline-block;
+    }
+  }
+}
+#newVideo{
+  margin-top: 20px;
+}
+#subs{
+width: 20px;
+}
+#search{
+input{
+  display: inline;
+}
+}
 div {
   width: auto;
   height: auto;
