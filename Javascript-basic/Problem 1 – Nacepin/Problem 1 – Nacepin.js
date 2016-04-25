@@ -12,19 +12,19 @@ function main(arr) {
         var chinesPrice = ((parseFloat(arr[4]) * 0.27) / chinesWeight).toFixed(2);
         array.push(chinesPrice);
     }
-    var min = Math.min.apply(null, array),
-        max = Math.max.apply(null, array);
+    var min =parseFloat( Math.min.apply(null, array)),
+        max = parseFloat(Math.max.apply(null, array));
 
     if (min == usPrice) {
-        console.log('US store. ' + min + ' lv/kg')
+        console.log('US store. ' + min.toFixed(2) + ' lv/kg')
     }
     if (min == ukPrice) {
-        console.log('UK store. ' + min + ' lv/kg')
+        console.log('UK store. ' + min.toFixed(2) + ' lv/kg')
     }
     if (min == chinesPrice) {
-        console.log('Chinese store. ' + min + ' lv/kg')
+        console.log('Chinese store. ' + min.toFixed(2) + ' lv/kg')
     }
-    console.log('Difference ' + (parseFloat(max) - parseFloat(min) ) + ' lv/kg')
+    console.log('Difference ' + (max - min ) + ' lv/kg')
 }
-var input = ['10', '1', '9', '2', '8', '3'];
+var input = ['10', '1', '10', '1', '10', '1'];
 main(input);
