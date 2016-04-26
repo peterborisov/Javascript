@@ -20,18 +20,7 @@
     <favorites_list name="Javascript-basic" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Problem 2 – Encoded Answers.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problem 2 – Encoded Answers/Problem 2 – Encoded Answers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,6 +39,7 @@
         <option value="$PROJECT_DIR$/Problem 2. Game of Names/Problem 2. Game of Names.js" />
         <option value="$PROJECT_DIR$/Problem 1 – Hungry Garfield/Problem 1 – Hungry Garfield.js" />
         <option value="$PROJECT_DIR$/Problem 2 – Encoded Answers/Problem 2 – Encoded Answers.js" />
+        <option value="$PROJECT_DIR$/Problem 4 – Passion Days/Problem 4 – Passion Days.js" />
       </list>
     </option>
   </component>
@@ -117,7 +107,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Problem 2 – Encoded Answers" />
+              <option name="myItemId" value="Problem 4 – Passion Days" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javascript-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javascript-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Problem 2 – Hogwarts Sorting" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -134,10 +138,7 @@
     <property name="nodejs_interpreter_path" value="C:\Program Files (x86)\nodejs\node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Node.js.Problem 2 – Encoded Answers.js">
-    <configuration default="false" name="Problem 1. Sweet Dessert.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Problem 1. Sweet Dessert.js" working-dir="$PROJECT_DIR$/Problem 1. Sweet Dessert">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.Problem 4 – Passion Days.js">
     <configuration default="false" name="Problem 2. Game of Names.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Problem 2. Game of Names.js" working-dir="$PROJECT_DIR$/Problem 2. Game of Names">
       <method />
     </configuration>
@@ -148,6 +149,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Problem 2 – Encoded Answers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Problem 2 – Encoded Answers.js" working-dir="$PROJECT_DIR$/Problem 2 – Encoded Answers">
+      <method />
+    </configuration>
+    <configuration default="false" name="Problem 4 – Passion Days.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Problem 4 – Passion Days.js" working-dir="$PROJECT_DIR$/Problem 4 – Passion Days">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -198,19 +202,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.Problem 1. Sweet Dessert.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 2. Game of Names.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 4 – Soccer Results.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 1 – Hungry Garfield.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Problem 2 – Encoded Answers.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Problem 2. Game of Names.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 4 – Soccer Results.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 1 – Hungry Garfield.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 2 – Encoded Answers.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.Problem 4 – Passion Days.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Problem 2 – Encoded Answers.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 1 – Hungry Garfield.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 2. Game of Names.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 4 – Soccer Results.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.Problem 1. Sweet Dessert.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Problem 4 – Passion Days.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 2 – Encoded Answers.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 1 – Hungry Garfield.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 2. Game of Names.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.Problem 4 – Soccer Results.js" />
       </list>
     </recent_temporary>
   </component>
@@ -227,22 +231,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1461479844133</updated>
-      <workItem from="1461479845289" duration="25065000" />
+      <workItem from="1461479845289" duration="27841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25065000" />
+    <option name="totallyTimeSpent" value="27841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25709778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25709778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -286,22 +290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem 1. Sweet Dessert/Problem 1. Sweet Dessert.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem 2 – Hogwarts Sorting/Problem 2 – Hogwarts Sorting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -358,8 +346,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem 2 – Encoded Answers/Problem 2 – Encoded Answers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem 1. Sweet Dessert/Problem 1. Sweet Dessert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem 4 – Passion Days/Problem 4 – Passion Days.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem 2 – Hogwarts Sorting/Problem 2 – Hogwarts Sorting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="38" />
           <folding />
         </state>
       </provider>
