@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Transport Price.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problem 2-Transport Price/Transport Price.js">
+      <file leaf-file-name="On Time.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problem 3-On Time/On Time.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -53,6 +53,7 @@
         <option value="$PROJECT_DIR$/Problem 4 – Passion Days/Problem 4 – Passion Days.js" />
         <option value="$PROJECT_DIR$/Problem 1-Training Lab/Problem 1-Training Lab.js" />
         <option value="$PROJECT_DIR$/Problem 2-Transport Price/Transport Price.js" />
+        <option value="$PROJECT_DIR$/Problem 3-On Time/On Time.js" />
       </list>
     </option>
   </component>
@@ -120,7 +121,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Problem 2-Transport Price" />
+              <option name="myItemId" value="Problem 3-On Time" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -137,10 +138,7 @@
     <property name="nodejs_interpreter_path" value="C:\Program Files (x86)\nodejs\node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Node.js.Transport Price.js">
-    <configuration default="false" name="Problem 2 – Encoded Answers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Problem 2 – Encoded Answers.js" working-dir="$PROJECT_DIR$/Problem 2 – Encoded Answers">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.On Time.js">
     <configuration default="false" name="Problem 4 – Passion Days.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Problem 4 – Passion Days.js" working-dir="$PROJECT_DIR$/Problem 4 – Passion Days">
       <method />
     </configuration>
@@ -151,6 +149,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Transport Price.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Transport Price.js" working-dir="$PROJECT_DIR$/Problem 2-Transport Price">
+      <method />
+    </configuration>
+    <configuration default="false" name="On Time.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="On Time.js" working-dir="$PROJECT_DIR$/Problem 3-On Time">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -201,19 +202,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.Problem 2 – Encoded Answers.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 4 – Passion Days.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 4 – Concerts.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 1-Training Lab.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Transport Price.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Problem 4 – Passion Days.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 4 – Concerts.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 1-Training Lab.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Transport Price.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.On Time.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Transport Price.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 1-Training Lab.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 4 – Concerts.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 4 – Passion Days.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.Problem 2 – Encoded Answers.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.On Time.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Transport Price.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 1-Training Lab.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 4 – Concerts.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.Problem 4 – Passion Days.js" />
       </list>
     </recent_temporary>
   </component>
@@ -230,12 +231,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1461479844133</updated>
-      <workItem from="1461479845289" duration="31938000" />
+      <workItem from="1461479845289" duration="39579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31938000" />
+    <option name="totallyTimeSpent" value="39579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
@@ -272,7 +273,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -397,6 +398,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem 3-On Time/On Time.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding />
         </state>
       </provider>
