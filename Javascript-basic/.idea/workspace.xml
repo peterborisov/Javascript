@@ -45,8 +45,9 @@
         <option value="$PROJECT_DIR$/Problem 3-On Time/On Time.js" />
         <option value="$PROJECT_DIR$/Problem 4-Histogram/Histogram.js" />
         <option value="$PROJECT_DIR$/Problem 5-Draw Fort/Draw Fort.js" />
-        <option value="$PROJECT_DIR$/Problem 1-Vegetables/Vegetables.js" />
         <option value="$PROJECT_DIR$/Problem 2-Poolpipes/Poolpipes.js" />
+        <option value="$PROJECT_DIR$/Problem 1-Vegetables/Vegetables.js" />
+        <option value="$PROJECT_DIR$/Problem 3- Trip/Trip.js" />
       </list>
     </option>
   </component>
@@ -114,14 +115,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Problem 3- Trip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javascript-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javascript-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Problem 2-Poolpipes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,10 +146,7 @@
     <property name="nodejs_interpreter_path" value="C:\Program Files (x86)\nodejs\node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Node.js.Poolpipes.js">
-    <configuration default="false" name="Transport Price.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Transport Price.js" working-dir="$PROJECT_DIR$/Problem 2-Transport Price">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.Trip.js">
     <configuration default="false" name="On Time.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="On Time.js" working-dir="$PROJECT_DIR$/Problem 3-On Time">
       <method />
     </configuration>
@@ -145,6 +157,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Poolpipes.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Poolpipes.js" working-dir="$PROJECT_DIR$/Problem 2-Poolpipes">
+      <method />
+    </configuration>
+    <configuration default="false" name="Trip.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Trip.js" working-dir="$PROJECT_DIR$/Problem 3- Trip">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -201,19 +216,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.Transport Price.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.On Time.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.Histogram.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.Vegetables.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Poolpipes.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.On Time.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Histogram.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Vegetables.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Poolpipes.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.Trip.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Poolpipes.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Trip.js" />
         <item index="1" class="java.lang.String" itemvalue="Node.js.Vegetables.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Histogram.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.On Time.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.Transport Price.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Poolpipes.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Histogram.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.On Time.js" />
       </list>
     </recent_temporary>
   </component>
@@ -231,22 +246,23 @@
       <option name="presentableId" value="Default" />
       <updated>1461479844133</updated>
       <workItem from="1461479845289" duration="43042000" />
-      <workItem from="1461729335030" duration="1662000" />
+      <workItem from="1461729335030" duration="3312000" />
+      <workItem from="1461820490120" duration="3138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44704000" />
+    <option name="totallyTimeSpent" value="49492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25709778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25709778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -278,6 +294,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Problem 1-Vegetables/Vegetables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem 2-Poolpipes/Poolpipes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Problem 1-Vegetables/Vegetables.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -408,16 +440,24 @@
     <entry file="file://$PROJECT_DIR$/Problem 5-Draw Fort/Draw Fort.js" />
     <entry file="file://$PROJECT_DIR$/Problem 1-Vegetables/Vegetables.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem 2-Poolpipes/Poolpipes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="255">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem 3- Trip/Trip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
       </provider>
