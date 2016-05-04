@@ -16,7 +16,6 @@ function solve(arr) {
     var string = '';
     switch (rotation) {
         case 1:
-
             for (var i = 0; i < minLength; i++) {
                 string = '';
                 for (var j = realArray.length - 1; j >= 0; j--) {
@@ -26,7 +25,6 @@ function solve(arr) {
             }
             break;
         case 2:
-
             for (var i = realArray.length - 1; i >= 0; i--) {
                 string = '';
                 for (var j = minLength - 1; j >= 0; j--) {
@@ -36,7 +34,7 @@ function solve(arr) {
             }
             break;
         case 3:
-            for (var i = minLength-1; i >= 0; i--) {
+            for (var i = minLength - 1; i >= 0; i--) {
                 string = '';
                 for (var j = 0; j < realArray.length; j++) {
                     string += realArray[j][i];
@@ -58,5 +56,4 @@ var arr = [
     'softuni',
     'exam'
 ];
-
 solve(arr);
