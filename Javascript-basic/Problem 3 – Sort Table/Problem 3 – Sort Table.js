@@ -1,28 +1,19 @@
-function sortTable(input) {
-    var rows = [];
-    for (var i = 2; i < input.length - 1; i++) {
-        var rowData = input[i];
-        var regex = /<td>.*?<\/td><td>(.*?)<\/td>/g;
-        var match = regex.exec(rowData);
-        var price = Number(match[1]);
-        var row = { price: price, data: rowData };
-        rows.push(row);
-    }
-    rows.sort(function (a, b) {
-        if (a.price != b.price) {
-            return a.price - b.price;
-        } else {
-            return a.data == b.data ? 0 : a.data < b.data ? -1 : 1;
-        }
+function solve(inputArray) {
+    var orderedArray = inputArray.slice(2, inputArray.length - 1);
+    var pattern = /(?:<\/td><td>)([0-9.-]+)(?=<\/td><td>)/;
+    var match;
+    var matchSecond;
+    orderedArray.sort(function (a, b) {
+        match = Number(pattern.exec(a)[1]);
+        matchSecond = Number(pattern.exec(b)[1]);
+        return match - matchSecond;
     });
-    console.log(input[0]);
-    console.log(input[1]);
-    for (var i = 0; i < rows.length; i++) {
-        console.log(rows[i].data);
-    }
-    console.log(input[input.length - 1]);
+    console.log(inputArray[0]);
+    console.log(inputArray[1]);
+    console.log(orderedArray.join('\n'));
+    console.log(inputArray[inputArray.length - 1]);
 }
-var input=[
+var input = [
     '<table>',
     '<tr><th>Product</th><th>Price</th><th>Votes</th></tr>',
     '<tr><td>Vodka Finlandia 1 l</td><td>19.35</td><td>+12</td></tr>',
@@ -33,4 +24,4 @@ var input=[
     '<tr><td>Coffee Davidoff 250 gr.</td><td>11.99</td><td>+11</td></tr>',
     '</table>'
 ];
-sortTable(input);
+solve(input);
