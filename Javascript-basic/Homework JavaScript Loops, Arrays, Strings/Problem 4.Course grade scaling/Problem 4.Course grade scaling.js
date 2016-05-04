@@ -1,53 +1,30 @@
 function main(arr) {
-    var myObj = {
-            'Пешо': '91',
-            'Лилия': '290',
-            'Алекс': '343',
-            'Габриела': '400',
-            'Жичка': '70'
-        },
-        keys = [],
-        k, i, len;
-
-    for (k in arr) {
-        if (myObj.hasOwnProperty(k)) {
-            keys.push(k);
+    var data = [];
+    for (var i = 0; i < arr.length; i++) {
+        var obj = arr[i];
+        obj.score = obj.score + (obj.score * 0.1);
+        if (obj.score >= 100) {
+            obj.hasPassed = true;
+            data.push(obj);
         }
     }
-
-    keys.sort();
-
-    len = keys.length;
-
-    for (i = 0; i < len; i++) {
-        k = keys[i];
-        var finalResult= (myObj[k]);
-        if(finalResult>100){
-            console.log(k + ':' + finalResult);
-        }
+    function compareStrings(a, b) {
+        a = a.toLowerCase();
+        b = b.toLowerCase();
+        return (a < b) ? -1 : (a > b) ? 1 : 0;
     }
+
+    data.sort(function (a, b) {
+        return compareStrings(a.name, b.name);
+    });
+    console.log(JSON.stringify(data))
 }
 
 var input = [
-    {
-        'name': 'Пешо',
-        'score': 91
-    },
-    {
-        'name': 'Лилия',
-        'score': 290
-    },
-    {
-        'name': 'Алекс',
-        'score': 343
-    },
-    {
-        'name': 'Габриела',
-        'score': 400
-    },
-    {
-        'name': 'Жичка',
-        'score': 70
-    }
+    {'name': 'Пешо', 'score': 91},
+    {'name': 'Лилия', 'score': 290},
+    {'name': 'Алекс', 'score': 343},
+    {'name': 'Габриела', 'score': 400},
+    {'name': 'Жичка', 'score': 70}
 ];
 main(input);
