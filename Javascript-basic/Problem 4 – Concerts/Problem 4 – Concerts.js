@@ -1,6 +1,6 @@
 function main(arr) {
     var result = {};
-    for (var i in arr) {
+    for (var i = 0; i < arr.length; i++) {
         var obj = arr[i].split('|');
         var band = obj[0].trim();
         var city = obj[1].trim();

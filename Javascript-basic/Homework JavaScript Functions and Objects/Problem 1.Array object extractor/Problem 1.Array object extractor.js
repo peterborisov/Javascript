@@ -1,6 +1,6 @@
-function main(array) {
+function main(arr) {
     var objectArr = [];
-    array.forEach(function (x) {
+    arr.forEach(function (x) {
         if (x.constructor.name === "Object") {
             objectArr.push(x);
         }
@@ -16,6 +16,6 @@ var input = [
     {type: 'fish', model: 'zlatna ribka'},
     [1, 2, 3],
     "Gosho",
-    {name: 'Penka', height: 1.65},
+    {name: 'Penka', height: 1.65}
 ];
-main(input)
+main(input);
