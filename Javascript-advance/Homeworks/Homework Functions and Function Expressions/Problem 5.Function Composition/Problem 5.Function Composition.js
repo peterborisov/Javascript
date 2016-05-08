@@ -8,13 +8,13 @@ function compose(outerFunc, innerFunc) {
 
 var add = function add(x, y) {
     return x + y;
-}
+};
 var addOne = function addOne(x) {
     return x + 1;
-}
+};
 var square = function square(x) {
     return x * x;
-}
+};
 
 console.log(compose(addOne, square)(5));
 console.log(compose(addOne, add)(5, 6));

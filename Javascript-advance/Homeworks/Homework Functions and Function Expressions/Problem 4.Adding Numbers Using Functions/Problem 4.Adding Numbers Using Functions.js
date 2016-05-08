@@ -6,7 +6,7 @@ var add = (function () {
     }
     inner.toString = function () {
         return sum;
-    }
+    };
     return inner;
 })();
 var addTwo = add(2);
