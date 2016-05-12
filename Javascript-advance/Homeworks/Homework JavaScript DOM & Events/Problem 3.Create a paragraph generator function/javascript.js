@@ -1,7 +1,9 @@
 function createParagraph() {
-        var comment = "Some text";
-        var newParagraph = document.createElement('p');
-        newParagraph.textContent = comment;
-        document.getElementById("wrapper").appendChild(newParagraph);
+        var comment = document.getElementById("yourText").value;
+        if(comment!="") {
+                var newParagraph = document.createElement('p');
+                newParagraph.textContent = comment;
+                document.getElementById("paragraphs").appendChild(newParagraph);
+        }
 }
 createParagraph();
