@@ -22,6 +22,13 @@
   <component name="FileEditorManager">
     <leaf />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -34,6 +41,8 @@
         <option value="$PROJECT_DIR$/Homeworks/Homework JavaScript DOM &amp; Events/Problem 3.Create a paragraph generator function/javascript.js" />
         <option value="$PROJECT_DIR$/DOM Lab/index.html" />
         <option value="$PROJECT_DIR$/DOM Lab/scripts/script.js" />
+        <option value="$PROJECT_DIR$/Exercise- Prototypal Chain and Inheritance in JavaScript/Exercise.js" />
+        <option value="$PROJECT_DIR$/Exercise- Prototypal Chain and Inheritance in JavaScript/Extension Methods.js" />
       </list>
     </option>
   </component>
@@ -109,13 +118,7 @@
       <recent name="C:\Users\Admin\Desktop\Javascript\Javascript-advance\DOM Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Problem 6.DOM Traversal.js">
-    <configuration default="false" name="Problem 2.call() and apply().js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Problem 2.call() and apply().js" working-dir="$PROJECT_DIR$/Homeworks/Homework Functions and Function Expressions/Problem 2.call() and apply()">
-      <method />
-    </configuration>
-    <configuration default="false" name="Problem 3.Test the Value of this.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Problem 3.Test the Value of this.js" working-dir="$PROJECT_DIR$/Homeworks/Homework Functions and Function Expressions/Problem 3.Test the Value of this">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.Extension Methods.js">
     <configuration default="false" name="Problem 4.Adding Numbers Using Functions.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Problem 4.Adding Numbers Using Functions.js" working-dir="$PROJECT_DIR$/Homeworks/Homework Functions and Function Expressions/Problem 4.Adding Numbers Using Functions">
       <method />
     </configuration>
@@ -123,6 +126,12 @@
       <method />
     </configuration>
     <configuration default="false" name="Problem 6.DOM Traversal.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Problem 6.DOM Traversal.js" working-dir="$PROJECT_DIR$/Homeworks/Homework Functions and Function Expressions/Problem 6.DOM Traversal">
+      <method />
+    </configuration>
+    <configuration default="false" name="Exercise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Exercise.js" working-dir="$PROJECT_DIR$/Exercise- Prototypal Chain and Inheritance in JavaScript">
+      <method />
+    </configuration>
+    <configuration default="false" name="Extension Methods.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Extension Methods.js" working-dir="$PROJECT_DIR$/Exercise- Prototypal Chain and Inheritance in JavaScript">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -179,19 +188,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.Problem 2.call() and apply().js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 3.Test the Value of this.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 4.Adding Numbers Using Functions.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 5.Function Composition.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Problem 6.DOM Traversal.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Problem 4.Adding Numbers Using Functions.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 5.Function Composition.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 6.DOM Traversal.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Exercise.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.Extension Methods.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Problem 6.DOM Traversal.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 5.Function Composition.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 4.Adding Numbers Using Functions.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 3.Test the Value of this.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.Problem 2.call() and apply().js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Extension Methods.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Exercise.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 6.DOM Traversal.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 5.Function Composition.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.Problem 4.Adding Numbers Using Functions.js" />
       </list>
     </recent_temporary>
   </component>
@@ -210,12 +219,12 @@
       <updated>1462699498193</updated>
       <workItem from="1462699499458" duration="2194000" />
       <workItem from="1462941851470" duration="32000" />
-      <workItem from="1463026882980" duration="5619000" />
+      <workItem from="1463026882980" duration="9908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7845000" />
+    <option name="totallyTimeSpent" value="12134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
@@ -226,7 +235,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -366,6 +375,24 @@
         <state relative-caret-position="493">
           <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise- Prototypal Chain and Inheritance in JavaScript/Exercise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise- Prototypal Chain and Inheritance in JavaScript/Extension Methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#604#713#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
