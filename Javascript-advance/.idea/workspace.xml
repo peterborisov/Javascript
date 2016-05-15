@@ -20,18 +20,7 @@
     <favorites_list name="Javascript-advance" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Closures and Scopes.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Homeworks/Closures and Scopes/Closures and Scopes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +44,9 @@
         <option value="$PROJECT_DIR$/Exercise- Prototypal Chain and Inheritance in JavaScript/Exercise.js" />
         <option value="$PROJECT_DIR$/Exercise- Prototypal Chain and Inheritance in JavaScript/Extension Methods.js" />
         <option value="$PROJECT_DIR$/Homeworks/Closures and Scopes/Closures and Scopes.js" />
+        <option value="$PROJECT_DIR$/Homeworks/Homework Prototype Chain and Inheritance in JavaScript/Problem 2.2D Geometry Structure – Prototypal Model/script.js" />
+        <option value="$PROJECT_DIR$/Homeworks/Homework Prototype Chain and Inheritance in JavaScript/Problem 1.2D Geometry Structure – Pseudo-Classical Model/script.js" />
+        <option value="$PROJECT_DIR$/Homeworks/Homework Prototype Chain and Inheritance in JavaScript/Problem 4. Classical Inheritance/04. Classical Inheritance.js" />
       </list>
     </option>
   </component>
@@ -94,6 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -112,9 +105,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javascript-advance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javascript-advance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homeworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -130,20 +136,20 @@
       <recent name="C:\Users\Admin\Desktop\Javascript\Javascript-advance\DOM Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Closures and Scopes.js">
-    <configuration default="false" name="Problem 5.Function Composition.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Problem 5.Function Composition.js" working-dir="$PROJECT_DIR$/Homeworks/Homework Functions and Function Expressions/Problem 5.Function Composition">
-      <method />
-    </configuration>
-    <configuration default="false" name="Problem 6.DOM Traversal.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Problem 6.DOM Traversal.js" working-dir="$PROJECT_DIR$/Homeworks/Homework Functions and Function Expressions/Problem 6.DOM Traversal">
-      <method />
-    </configuration>
-    <configuration default="false" name="Exercise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Exercise.js" working-dir="$PROJECT_DIR$/Exercise- Prototypal Chain and Inheritance in JavaScript">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.04. Classical Inheritance.js">
     <configuration default="false" name="Extension Methods.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Extension Methods.js" working-dir="$PROJECT_DIR$/Exercise- Prototypal Chain and Inheritance in JavaScript">
       <method />
     </configuration>
     <configuration default="false" name="Closures and Scopes.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Closures and Scopes.js" working-dir="$PROJECT_DIR$/Homeworks/Closures and Scopes">
+      <method />
+    </configuration>
+    <configuration default="false" name="script.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Homeworks/Homework Prototype Chain and Inheritance in JavaScript/Problem 1.2D Geometry Structure – Pseudo-Classical Model">
+      <method />
+    </configuration>
+    <configuration default="false" name="script.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Homeworks/Homework Prototype Chain and Inheritance in JavaScript/Problem 2.2D Geometry Structure – Prototypal Model">
+      <method />
+    </configuration>
+    <configuration default="false" name="04. Classical Inheritance.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="04. Classical Inheritance.js" working-dir="$PROJECT_DIR$/Homeworks/Homework Prototype Chain and Inheritance in JavaScript/Problem 4. Classical Inheritance">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -200,19 +206,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.Problem 5.Function Composition.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 6.DOM Traversal.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.Exercise.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.Extension Methods.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Closures and Scopes.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Extension Methods.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Closures and Scopes.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.script.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.script.js (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.04. Classical Inheritance.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Closures and Scopes.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Extension Methods.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Exercise.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 6.DOM Traversal.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.Problem 5.Function Composition.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.04. Classical Inheritance.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.script.js (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.script.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Closures and Scopes.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.Extension Methods.js" />
       </list>
     </recent_temporary>
   </component>
@@ -232,16 +238,17 @@
       <workItem from="1462699499458" duration="2194000" />
       <workItem from="1462941851470" duration="32000" />
       <workItem from="1463026882980" duration="11107000" />
-      <workItem from="1463114244666" duration="878000" />
+      <workItem from="1463114244666" duration="2313000" />
+      <workItem from="1463295058988" duration="3053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14211000" />
+    <option name="totallyTimeSpent" value="18699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -277,6 +284,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Homeworks/Closures and Scopes/Closures and Scopes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Homeworks/Homework Functions and Function Expressions/Problem 1.Function Arguments/Problem 1.Function Arguments.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -398,8 +413,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homeworks/Closures and Scopes/Closures and Scopes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homeworks/Homework Prototype Chain and Inheritance in JavaScript/Problem 1.2D Geometry Structure – Pseudo-Classical Model/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homeworks/Homework Prototype Chain and Inheritance in JavaScript/Problem 2.2D Geometry Structure – Prototypal Model/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homeworks/Homework Prototype Chain and Inheritance in JavaScript/Problem 2.2D Geometry Structure – Prototypal Model/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="120" column="6" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-advance exams/Amazon/generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homeworks/Homework Simulating OOP in JavaScript/Problem 4.Useful String Methods/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homeworks/Homework Simulating OOP in JavaScript/Problem 2.Bug fix, level 2/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-402">
+          <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homeworks/Homework Prototype Chain and Inheritance in JavaScript/Problem 1.2D Geometry Structure – Pseudo-Classical Model/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homeworks/Homework Simulating OOP in JavaScript/Problem 3.Array Flattening/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homeworks/Homework Simulating OOP in JavaScript/Problem 1.Bug fix/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-advance exams/Restaurant manager/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4380">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-advance exams/Travel Agency/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homeworks/Homework Prototype Chain and Inheritance in JavaScript/Problem 4. Classical Inheritance/04. Classical Inheritance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding />
         </state>
       </provider>

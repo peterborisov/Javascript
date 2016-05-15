@@ -1,7 +1,7 @@
 Object.prototype.extends = function (parent) {
     this.prototype = Object.create(parent.prototype);
     this.prototype.constructor = this;
-}
+};
 
 function isNumber(n) {
     return !isNaN(parseFloat(n)) && isFinite(n);
@@ -14,7 +14,7 @@ var shapeModule = (function () {
 
     Shape.prototype.toString = function () {
         return "Color: " + this._color;
-    }
+    };
 
     var Circle = (function () {
         function Circle(centerX, centerY, radius, color) {
@@ -44,7 +44,7 @@ var shapeModule = (function () {
         result += Shape.prototype.toString.call(this);
 
         return result;
-    }
+    };
 
     var Rectangle = (function () {
         function Rectangle(topLeftX, topLeftY, width, height, color) {
@@ -61,7 +61,7 @@ var shapeModule = (function () {
             }
 
             rect._width = widthValue;
-        }
+        };
 
         this.setHeight = function (rect, heightValue) {
             if (!isNumber(heightValue) || heightValue <= 0) {
@@ -69,7 +69,7 @@ var shapeModule = (function () {
             }
 
             rect._height = heightValue;
-        }
+        };
 
         return Rectangle;
     })();
@@ -84,7 +84,7 @@ var shapeModule = (function () {
         result += Shape.prototype.toString.call(this);
 
         return result;
-    }
+    };
 
     var Triangle = (function () {
         function Triangle(pointAx, pointAy, pointBx, pointBy, pointCx, pointCy, color) {
@@ -118,7 +118,7 @@ var shapeModule = (function () {
         result += Shape.prototype.toString.call(this);
 
         return result;
-    }
+    };
 
     Triangle.prototype.isValidTriangle = function (aX, aY, bX, bY, cX, cY) {
         var sideA = Shape.prototype.getDistanceBetweenPoints(aX, aY, bX, bY);
@@ -134,7 +134,7 @@ var shapeModule = (function () {
         }
 
         return true;
-    }
+    };
 
     var Line = (function () {
         function Line(aX, aY, bX, bY, color) {
@@ -156,7 +156,7 @@ var shapeModule = (function () {
         result += Shape.prototype.toString.call(this);
 
         return result;
-    }
+    };
 
     var Segment = (function () {
         function Segment(aX, aY, bX, bY, color) {
@@ -174,7 +174,7 @@ var shapeModule = (function () {
         result += Shape.prototype.toString.call(this);
 
         return result;
-    }
+    };
 
     Shape.prototype.getDistanceBetweenPoints = function (aX, aY, bX, bY) {
         var deltaX = aX - bX;
@@ -183,7 +183,7 @@ var shapeModule = (function () {
         var distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
 
         return distance;
-    }
+    };
 
     return {
         Circle: Circle,

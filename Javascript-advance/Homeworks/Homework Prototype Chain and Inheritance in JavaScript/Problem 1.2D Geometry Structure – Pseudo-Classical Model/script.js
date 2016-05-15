@@ -6,7 +6,7 @@ Object.prototype.extend = function (properties) {
     }
     f.prototype._super = this;
     return new f();
-}
+};
 
 var shapesModule = (function () {
     var shape = {
