@@ -26,6 +26,11 @@ var app = (function () {
     }
 })();
 
+
+
+
+
+
 app.plus(5, 4);
  var m = app.multiply(5, 4);
 var p = app.add('pete');
