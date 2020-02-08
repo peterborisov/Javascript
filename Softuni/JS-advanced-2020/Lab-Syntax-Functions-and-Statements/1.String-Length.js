@@ -4,17 +4,11 @@
 // The input comes as three string arguments passed to your function.
 // The output should be printed on the console on two lines.
 
-function stringLength(args) {
+function stringLength(a, b, c) {
 
-    let totalLEngth = 0;
-    for (arg of args) {
-        totalLEngth += arg.length;
-    }
-
+    let totalLEngth = a.length + b.length + c.length;
     console.log(totalLEngth);
-    console.log(Math.floor(totalLEngth / args.length));
+    console.log(Math.floor(totalLEngth / 3));
 }
 
-let input = ['chocolate', 'ice cream', 'cake'];
-
-stringLength(input);
+stringLength('chocolate', 'ice cream', 'cake');

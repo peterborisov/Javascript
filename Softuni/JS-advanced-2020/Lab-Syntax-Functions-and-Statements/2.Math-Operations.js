@@ -5,7 +5,7 @@
 // The input comes as two numbers and a string argument passed to your function.
 // The output should be printed on the console.
 
-function mathOperations(args){
+function mathOperations(...args){
 
       switch(args[2]){
           case '+': return args[0] + args[1]; break;
@@ -17,6 +17,4 @@ function mathOperations(args){
       }
 }
 
-let input = [5, 6, '-'];
-
-console.log(mathOperations(input));
+mathOperations(5, 6, '-');

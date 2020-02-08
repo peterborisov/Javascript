@@ -3,7 +3,7 @@
 // The input comes as two string elements that need to be parsed as numbers.
 // The output should return the sum.
 
-function sumOfNumbers(args) {
+function sumOfNumbers(...args) {
     let start = parseInt(args[0]);
     let end = parseInt(args[1]);
     let total = 0;
@@ -14,5 +14,4 @@ function sumOfNumbers(args) {
     console.log(total)
 }
 
-let input = ['-8', '20'];
-sumOfNumbers(input);
+sumOfNumbers('-8', '20');
