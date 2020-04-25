@@ -11,4 +11,4 @@ Simple client side form validation. Check required, length, email and password m
 - checkEmail() to validate email with regex
 - checkPasswordsMatch() to match confirm password
 
-![Form validator](/register-form.png?raw=true "Register form")
+![Form validator](register-form.png?raw=true "Register form")
