@@ -11,4 +11,4 @@ Display movie choices and seats in a theater to select from in order to purchase
 - Number of seats and price will update
 - Save seats, movie and price to local storage so that UI is still populated on refresh
 
-![Form validator](register-form.png?raw=true "Register form")
+![Form validator](movie-seat.png?raw=true "Register form")
