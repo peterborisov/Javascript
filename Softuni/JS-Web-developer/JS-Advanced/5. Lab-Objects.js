@@ -6,25 +6,25 @@ table will consist of exactly 3 columns &quot;Town&quot;, &quot;Latitude&quot; a
 columns will always contain valid numbers. Check the examples to get a better understanding of your task.
 */
 
-// function towns(args) {
-//     args.shift();
-//     let json = [];
-//     let reg = /\s*\|\s*/;
-//     args.map(el => {
-//         el = el.split(reg);
-//         let schema = {
-//             Town: el[1],
-//             Latitude: +parseFloat(el[2]).toFixed(2),
-//             Longitude: +parseFloat(el[3]).toFixed(2)
-//         };
-//         json.push(schema);
-//     })
-//     console.log(JSON.stringify(json))
-// }
+function towns(args) {
+    args.shift();
+    let json = [];
+    let reg = /\s*\|\s*/;
+    args.map(el => {
+        el = el.split(reg);
+        let schema = {
+            Town: el[1],
+            Latitude: +parseFloat(el[2]).toFixed(2),
+            Longitude: +parseFloat(el[3]).toFixed(2)
+        };
+        json.push(schema);
+    })
+    console.log(JSON.stringify(json))
+}
 
-// towns(['| Town | Latitude | Longitude | ',
-//     ' | Sofia | 42.696552 | 23.32601 | ',
-//     ' | Beijing | 39.913818 | 116.363625 |'])
+towns(['| Town | Latitude | Longitude | ',
+    ' | Sofia | 42.696552 | 23.32601 | ',
+    ' | Beijing | 39.913818 | 116.363625 |'])
 
 /*2. Sum by Town
 You’re tasked with calculating the total sum of income for a number of Towns. You will receive an array of strings
