@@ -5,15 +5,15 @@ Write a program that keeps a number inside its context and returns new function 
 previous one.
 */
 
-// let add = (a) => {
-//     return (b) => {
-//         return a + b;
-//     }
-// }
+let add = (a) => {
+    return (b) => {
+        return a + b;
+    }
+}
 
-// let add5 = add(5);
-// console.log(add5(2));
-// console.log(add5(3));
+let add5 = add(5);
+console.log(add5(2));
+console.log(add5(3));
 
 /*
 2. Currency Format
@@ -22,10 +22,10 @@ function that takes 4 parameters and returns a formatted string (a monetary valu
 Your task is to return another function that only takes one parameter and returns the same formatted string.
 */
 
-// function reduceFuncParams(currencyFormatter) {
-//     let dollarFormatter = value => currencyFormatter(',', '$', true, value);
-//     return dollarFormatter;
-// }
+function reduceFuncParams(currencyFormatter) {
+    let dollarFormatter = value => currencyFormatter(',', '$', true, value);
+    return dollarFormatter;
+}
 
 /*
 3. Filter Employees
