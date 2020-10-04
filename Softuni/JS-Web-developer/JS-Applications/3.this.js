@@ -8,21 +8,21 @@ Write a function which calculates the area and the volume of a figure, which is 
 // function area() { return this.x * this.y }
 // function vol() { return this.x * this.y * this.z }
 
-// function solve(area, vol, args) {
-//     return JSON.parse(args)
-//         .map(el => {
-//             return {
-//                 area: Math.abs(area.call(el)),
-//                 volume: Math.abs(vol.call(el))
-//             }
-//         })
-// }
+function solve(area, vol, args) {
+    return JSON.parse(args)
+        .map(el => {
+            return {
+                area: Math.abs(area.call(el)),
+                volume: Math.abs(vol.call(el))
+            }
+        })
+}
 
-// console.log(solve(area, vol, `[
-//     { "x": "1", "y": "2", "z": "10" },
-//     { "x": "7", "y": "7", "z": "10" },
-//     { "x": "5", "y": "2", "z": "10" }
-// ]`));
+console.log(solve(area, vol, `[
+    { "x": "1", "y": "2", "z": "10" },
+    { "x": "7", "y": "7", "z": "10" },
+    { "x": "5", "y": "2", "z": "10" }
+]`));
 
 
 /*
@@ -35,50 +35,50 @@ Write a JS program which takes first & last names as parameters and returns an o
 "{firstName} {lastName}"
 */
 
-// class Person {
-//     constructor(first, last) {
-//         this.first = first;
-//         this.last = last;
-//     }
-//     get fullName() {
-//         return `${this.firstName} ${this.lastName}`
-//     }
-//     set fullName(fullName) {
-//         let names = fullName.split(' ');
-//         if (names.length === 2) {
-//             this.firstName = names[0];
-//             this.lastName = names[1];
-//         };
-//         `${this.firstName} ${this.lastName}`
-//     }
-//     get firstName() { return this.first; }
-//     set firstName(firstName) { this.first = firstName; }
+class Person {
+    constructor(first, last) {
+        this.first = first;
+        this.last = last;
+    }
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`
+    }
+    set fullName(fullName) {
+        let names = fullName.split(' ');
+        if (names.length === 2) {
+            this.firstName = names[0];
+            this.lastName = names[1];
+        };
+        `${this.firstName} ${this.lastName}`
+    }
+    get firstName() { return this.first; }
+    set firstName(firstName) { this.first = firstName; }
 
-//     get lastName() { return this.last; }
-//     set lastName(lastName) { this.last = lastName }
-// }
+    get lastName() { return this.last; }
+    set lastName(lastName) { this.last = lastName }
+}
 
-// let person = new Person("Peter", "Ivanov");
-// console.log(person.fullName);//Peter Ivanov
-// person.firstName = "George";
-// console.log(person.fullName);//George Ivanov
-// person.lastName = "Peterson";
-// console.log(person.fullName);//George Peterson
-// person.fullName = "Nikola Tesla";
-// console.log(person.firstName)//Nikola
-// console.log(person.lastName)//Tesla
+let person = new Person("Peter", "Ivanov");
+console.log(person.fullName);//Peter Ivanov
+person.firstName = "George";
+console.log(person.fullName);//George Ivanov
+person.lastName = "Peterson";
+console.log(person.fullName);//George Peterson
+person.fullName = "Nikola Tesla";
+console.log(person.firstName)//Nikola
+console.log(person.lastName)//Tesla
 
 /*
 3.ArrayMap
 Write a function that takes 2 parameters (array and a function) that uses .reduce() to implement a simple version of .map().
 */
 
-// function arrayMap(...args) {
-//    return args[0].reduce((a, b) => [...a, args[1](b)], [])
-// }
+function arrayMap(...args) {
+   return args[0].reduce((a, b) => [...a, args[1](b)], [])
+}
 
-// let nums = [1, 2, 3, 4, 5];
-// console.log(arrayMap(nums, (item) => item * 2)); // [ 2, 4, 6, 8, 10 ]
+let nums = [1, 2, 3, 4, 5];
+console.log(arrayMap(nums, (item) => item * 2)); // [ 2, 4, 6, 8, 10 ]
 
 /*
 5.	Spy
