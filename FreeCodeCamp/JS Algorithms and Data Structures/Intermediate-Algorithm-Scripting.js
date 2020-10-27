@@ -115,12 +115,59 @@ console.log(fearNotLetter("abce"));
 
 
 //Sorted Union
-// function uniteUnique(arr) {
-//     let result = []
-//     arr.map(el => [...el]);
+function uniteUnique(...arr) {
+    //Solution 1
+    // arr = arr.reduce((a, b) => [...a, ...b], [])
+    // arr = Array.from(new Set(arr))
+    // return arr;
 
-// console.log(arr)
-//     return arr;
-// }
+    //Solution 2
+    return [...new Set([].concat(...arr))]
+}
 
-// console.log(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]));
+console.log(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]));
+
+
+//Convert HTML Entities
+function convertHTML(str) {
+    let cymbols = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', '\'': '&apos;' };
+    return str
+        .split('')
+        .map(el => cymbols[el] || el)
+        .join('')
+}
+console.log(convertHTML("Dolce & Gabbana"));
+
+
+//Sum All Odd Fibonacci Numbers
+function sumFibs(num) {
+    if (num <= 0) return 0;
+    const arrFib = [1, 1];
+    let nextFib = 0
+    while ((nextFib = arrFib[0] + arrFib[1]) <= num) {
+        arrFib.unshift(nextFib);
+    }
+    return arrFib.filter(x => x % 2 != 0).reduce((a, b) => a + b);
+}
+
+console.log(sumFibs(10));
+
+
+// Sum All Primes
+function sumPrimes(num) {
+    let sum = 0;
+    const isPrime = num => {
+        const boundary = Math.floor(Math.sqrt(num));
+        for (var i = 2; i <= boundary; i++) if (num % i === 0) return false;
+        return num >= 2;
+    };
+
+    for (var i = 2; i <= num; i++) {
+        if (isPrime(i)) {
+            sum += i;
+        }
+    }
+    return sum;
+}
+
+console.log(sumPrimes(10));
