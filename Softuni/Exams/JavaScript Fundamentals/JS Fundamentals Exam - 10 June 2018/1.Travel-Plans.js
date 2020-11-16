@@ -27,6 +27,7 @@ function travelPlan(args) {
             }
         }
     }
+    
     console.log(`Final sum: ${totalAmount.toFixed(2)}`);
     totalAmount < 1000 ? console.log(`Mariyka need to earn ${(1000 - totalAmount).toFixed(2)} gold more to continue in the next task.`)
      :console.log(`Mariyka earned ${(totalAmount - 1000).toFixed(2)} gold more.`);
