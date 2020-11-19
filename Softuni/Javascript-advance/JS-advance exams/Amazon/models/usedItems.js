@@ -1,15 +1,14 @@
-var models = models || {};
+import Item from '../models/item.js';
 
-(function (scope) {
-    UsedItem.inherits(scope._Item)
-    function UsedItem(title, description, price, condition) {
-        scope._Item.apply(this, arguments);
+class UsedItem extends Item {
+    constructor(title, description, price, condition) {
+        super(title, description, price);
         this.condition = condition;
     }
-
-    scope.getUsedItem = function (title, description, price, condition) {
+    
+    getUsedItem = function (title, description, price, condition) {
         return new UsedItem(title, description, price, condition);
     }
-
-}(models));
+    
+}
 
