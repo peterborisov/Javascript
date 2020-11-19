@@ -4,6 +4,6 @@ function plusMinus(arr) {
     arr.map(el => {
         Math.sign(el) === -1 ? count[0]++ : Math.sign(el) === 1 ? count[2]++ : count[1]++;
     });
-    return `${(count[2] / len).toFixed(6)}\n${(count[0] / len).toFixed(6)}\n${(count[1] / len).toFixed(6)}`;
+    console.log(`${(count[2] / len).toFixed(6)}\n${(count[0] / len).toFixed(6)}\n${(count[1] / len).toFixed(6)}`);
 }
 console.log(plusMinus([-4, 3, -9, 0, 4, 1]))
