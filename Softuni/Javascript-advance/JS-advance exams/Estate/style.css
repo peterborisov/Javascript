@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+}
+
+textarea {
+    font-family: Consolas, Monospaced;
+    font-size: 12pt;
+    height: 600px;
+}
+
+textarea#input {
+    width: 470px;
+}
+
+textarea#output {
+    width: 600px;
+}
+
+div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+button {
+    width: 100px;
+    height: 60px;
+    margin: 250px 10px 10px 10px;
+}
