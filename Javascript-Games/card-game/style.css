@@ -1,0 +1,44 @@
+body {
+    color: blue
+}
+
+.wrapper {
+    width: 95%;
+    height: 100vh;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.card-container {
+    width: 80%;
+    height: 75%;
+    background-color: azure;
+    margin: 0 auto;
+}
+
+.border-card {
+    width: 10.3%;
+    height: 8%;
+    margin: 1%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.open-card {
+    visibility: visible;
+}
+
+.closed-card {
+    visibility: hidden;
+    height: 100%;
+    background-color: green;
+    text-align: center;
+    font-size: 2rem;
+    color: aliceblue;
+}
