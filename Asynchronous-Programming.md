@@ -31,7 +31,11 @@ doThing('value', (err, result) => {
 #### `Promises`
 A promise is an asynchronous action that may complete at some point and produce a value.<br/>
 **Pros**  Promise.all() allows for multiple operations to be run in parallel rather than just asynchronously.<br/>
-**Cons** memory usage when using promises instead of callbacks.
+Promises are chainable, you can return a Promise from .then()<br/>
+You can define a single error handler using .catch() added to the end of your promise chain.<br/>
+
+**Cons** memory usage when using promises instead of callbacks.<br/>
+Avoid the Pyramid of Doom
 ```
 doThing('value')
     .then(value => {
@@ -44,7 +48,7 @@ doThing('value')
     });
 ```
 **prototype.then()<br/>
-prototype.catch()**
+prototype.catch()**<br/>
 The **.then()** is used to specify what to do if the promise is fulfilled and **.catch()** specifies what to do if the promise is not fulfilled.
 
 #### `Async-Await`
@@ -59,6 +63,10 @@ try {
 } catch (ex) {
     // handle error here
     console.error(ex);
+}
+
+async function name(params) {
+  const result = await waitforfunction()
 }
 ```
 
