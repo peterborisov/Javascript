@@ -43,9 +43,14 @@ doThing('value')
         console.error(reason);
     });
 ```
+**prototype.then()<br/>
+prototype.catch()**
+The **.then()** is used to specify what to do if the promise is fulfilled and **.catch()** specifies what to do if the promise is not fulfilled.
 
 #### `Async-Await`
 Under the hood, they are just a new way of calling promises: an “async” function is actually a function that returns a promise. This means that you can call .then() on async functions and await promises.
+The **async** and **await** keyword enables asynchronous, promise-based behavior so that code could be written a lot cleaner and avoid promise chains.
+
 ```
 try {
     const result = await doThing('value');
