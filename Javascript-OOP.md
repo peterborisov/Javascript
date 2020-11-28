@@ -1,8 +1,8 @@
-## [Objects](#Objects)<br/>
-## [Prototypes](#Prototypes)<br/>
-## [Prototypical Inheritance](#Prototypical-Inheritance)
-## [Classes](#Classes)<br/>
-## [Modules](#Modules)<br/>
+#### [Objects](#Objects)<br/>
+#### [Prototypes](#Prototypes)<br/>
+#### [Prototypical Inheritance](#Prototypical-Inheritance)
+#### [Classes](#Classes)<br/>
+#### [Modules](#Modules)<br/>
 
 ## `Objects`
 1- Introduction<br/>
