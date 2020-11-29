@@ -4,6 +4,7 @@
 #### [Classes](#Classes)<br/>
 #### [Modules](#Modules)<br/>
 
+
 ## `Objects`
 #### 1- Introduction<br/>
 #### 2- Object Literals<br/>
@@ -85,18 +86,69 @@ ES6 obj.propertyIsEnumerable('nameProp') // => true/false
 ```
 
 #### 10- Abstraction<br/>
+The separation of some associated business logic into attributes and methods (behaviors), which can form an object.
+
 #### 11- Private Properties and Methods<br/>
+Protected fields start with _. 
+Private fields start with #. JavaScript makes sure we can only access those from inside the class.
+
 #### 12- Getters and Setters<br/>
+They allow us to run the code on the reading or writing of a property.
+
 
 ## `Prototypes`
 #### 1- Inheritance<br/>
+
 #### 2- Prototypes and Prototypical Inheritance<br/>
+When we read a property from object, and it’s missing, JavaScript automatically takes it from the prototype. In programming, such thing is called **prototypal inheritance**. 
+
 #### 3- Multi-level Inheritance<br/>
+
 #### 4- Property Descriptors<br/>
+**Property flags**
+Object properties, besides a value, have three special attributes (so-called “flags”):
+**writable** – if true, the value can be changed, otherwise it’s read-only.
+**enumerable** – if true, then listed in loops, otherwise not listed.
+**configurable** – if true, the property can be deleted and these attributes can be modified, otherwise not.
+```
+The returned value is a so-called “property descriptor” object: it contains the value and all the flags.
+let user = {
+  name: "John"
+};
+
+let descriptor = Object.getOwnPropertyDescriptor(user, 'name');
+
+alert( JSON.stringify(descriptor, null, 2 ) );
+/* property descriptor:
+{
+  "value": "John",
+  "writable": true,
+  "enumerable": true,
+  "configurable": true
+}
+*/
+```
+
 #### 5- Constructor Prototypes<br/>
+The constructor property returns a reference to the Object constructor function that created the instance object. 
+
 #### 6- Prototype vs. Instance Members<br/>
+```
+function A (some){
+   // Instance members
+   this.some = some
+}
+
+//Prototype members
+A.prototype.myMethos = function(){}
+```
+
 #### 7- Iterating Instance and Prototype Members<br/>
+Object.keys(myObj) // Return instance members
+for...in loop // return all members (prototype + instance)
+
 #### 8- Avoid Extending the Built-in Objects<br/>
+Don't modify objects you don't own.
 
 ## `Prototypical-Inheritance`
 #### 1- Creating Your Own Prototypical Inheritance<br/>
