@@ -87,9 +87,6 @@ ES6 obj.propertyIsEnumerable('nameProp') // => true/false
 #### 10- Abstraction<br/>
 #### 11- Private Properties and Methods<br/>
 #### 12- Getters and Setters<br/>
-#### 13- Cheat Sheet<br/>
-#### 14- Exercise- Stop Watch<br/>
-#### 15- Solution- Stopwatch<br/>
 
 ## `Prototypes`
 #### 1- Inheritance<br/>
@@ -100,9 +97,6 @@ ES6 obj.propertyIsEnumerable('nameProp') // => true/false
 #### 6- Prototype vs. Instance Members<br/>
 #### 7- Iterating Instance and Prototype Members<br/>
 #### 8- Avoid Extending the Built-in Objects<br/>
-#### 9- Cheat Sheet<br/>
-#### 10- Exercise<br/>
-#### 11- Solution<br/>
 
 ## `Prototypical-Inheritance`
 #### 1- Creating Your Own Prototypical Inheritance<br/>
@@ -113,11 +107,6 @@ ES6 obj.propertyIsEnumerable('nameProp') // => true/false
 #### 6- Polymorphism<br/>
 #### 7- When to Use Inheritance<br/>
 #### 8- Mixins<br/>
-#### 9- Cheat Sheet<br/>
-#### 10- Exercise Prototypical Inheritence<br/>
-#### 11- Solution Prototypical Inheritance<br/>
-#### 12- Exercise- Polymorphism<br/>
-#### 13- Solution- Polymorphism<br/>
 
 ## `Classes`
 #### 1- ES6 Classes<br/>
@@ -129,9 +118,6 @@ ES6 obj.propertyIsEnumerable('nameProp') // => true/false
 #### 7- Getters and Setters<br/>
 #### 8- Inheritance<br/>
 #### 9- Method Riding<br/>
-#### 10- Cheat Sheet<br/>
-#### 11- Exercise<br/>
-#### 12- Solution<br/>
 
 ## `Modules`
 #### 1- Modules<br/>
@@ -140,4 +126,3 @@ ES6 obj.propertyIsEnumerable('nameProp') // => true/false
 #### 4- ES6 Tooling<br/>
 #### 5- Babel<br/>
 #### 6- Webpack<br/>
-#### 7- Cheat Sheet<br/>
