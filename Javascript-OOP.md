@@ -186,8 +186,8 @@ Avoid creating inheritance hierarchies
 Favor Composition(using Mixins) over inheritance
 
 #### 8- Mixins<br/>
-In JavaScript we can only inherit from a single object. There can be only one [[Prototype]] for an object. And a class may extend only one other class.<br/>
-Mixin is a class containing methods that can be used by other classes without a need to inherit from it.<br/>
+Mixin – is a generic object-oriented programming term: a class that contains methods for other classes.<br/>
+Some other languages allow multiple inheritance. JavaScript does not support multiple inheritance, but mixins can be implemented by copying methods into prototype.
 ```
 // mixin
 let sayHiMixin = {
@@ -215,19 +215,123 @@ new User("Dude").sayHi(); // Hello Dude!
 
 ## `Classes`
 #### 1- ES6 Classes<br/>
-#### 2- Hoisting<br/>
-#### 3- Static Methods<br/>
-#### 4- The This Keyword<br/>
-#### 5- Private Members Using Symbols<br/>
-#### 6- Private Members Using WeakMaps<br/>
-#### 7- Getters and Setters<br/>
-#### 8- Inheritance<br/>
-#### 9- Method Riding<br/>
+1. It must be called with new.
+2. Class methods are non-enumerable. 
+3. Classes always use strict.
+```
+class MyClass {
+  prop = value; // property
+  
+  constructor(...) { // constructor
+  }
 
+  method(...) {} // method
+
+  get something(...) {} // getter method
+  set something(...) {} // setter method
+}
+```
+
+#### 2- Hoisting<br/>
+JS engine move declaration on top of the file.
+
+#### 3- Static Methods<br/>
+Assign a method to the class function itself, not to its "prototype". Such methods are called static.
+```
+class A {
+  static myMethod() {
+    alert(this === A);
+  }
+}
+let a = new A() // myMethod is not there
+A.myMethod(); // true
+```
+
+#### 4- The This Keyword<br/>
+Reference to the parent object
+
+#### 5- Private Members Using Symbols<br/>
+Protected fields start with _. Convention, not enforced at the language level.<br/>
+Private fields start with #. JavaScript makes sure we can only access those from inside the class.
+
+#### 6- Private Members Using WeakMaps<br/>
+**WeakMaps**- keys are objects. If no reverences to this key, it will be garbage collected
+
+#### 7- Getters and Setters<br/>
+get; set; 
+
+#### 8- Inheritance<br/>
+```
+class A{
+    constructor(){}
+}
+
+class B extends A{
+    constructor(){
+        super()
+    }
+}
+```
+#### 9- Method Riding<br/>
+```
+class A{
+    constructor(){}
+    myMethod(){}
+}
+
+class B extends A{
+    constructor(){
+        super()
+    }
+    super.myMethod()
+}
+```
 ## `Modules`
 #### 1- Modules<br/>
+**Why to use?**<br/>
+Maintanability, Reuse, Abstract<br/>
+**AMD** - browser<br/>
+**CommonJS** - Node.js<br/>
+**UMD** - Browser/Node.js<br/>
+**ES6 Modules**
+
 #### 2- CommonJS Modules<br/>
+```
+//myFile.js
+//Public interface
+class MyClass{}
+module.exports = MyClass;
+```
+```
+//app.js
+const myClass = require('./myFile');
+```
 #### 3- ES6 Modules<br/>
+To make import/export work, browsers need <script type="module"><br/>
+```
+// sayHi.js
+export function sayHi(user) {
+  alert(`Hello, ${user}!`);
+}
+```
+```
+// main.js
+import {sayHi} from './sayHi.js';
+
+alert(sayHi); // function...
+sayHi('John'); // Hello, John!
+```
+**Core module features:**<br/>
+Pros:<br/>
+Always 'use strict'<br/>
+Module-level scope<br/>
+A module code is evaluated only the first time when imported<br/>
+Cons:<br/>
+In a module, “this” is undefined
+
 #### 4- ES6 Tooling<br/>
+**Transpiler** - Translator + Compiler (ES6 => Babel => ES5) 
+** Bundler** - remove white space, comments (all JS file => Webpack => single JS file)
+
 #### 5- Babel<br/>
 #### 6- Webpack<br/>
