@@ -152,13 +152,66 @@ Don't modify objects you don't own.
 
 ## `Prototypical-Inheritance`
 #### 1- Creating Your Own Prototypical Inheritance<br/>
+A.prototype = Object.create(B.prototype);
+
 #### 2- Resetting the Constructor<br/>
+A.prototype = Object.create(B.prototype);
+A.prototype.constructor = A;
+
 #### 3- Calling the Super Constructor<br/>
+```
+function A(propA, propB) {
+    B.call(this, propB)
+    propA = propA;
+}
+```
+
 #### 4- Intermediate Function Inheritance<br/>
+
 #### 5- Method Overriding<br/>
+
 #### 6- Polymorphism<br/>
+```
+let elements = {
+    new A(),
+    new B()
+}
+for(let el of elements){
+    // Same method, used in different ways
+    el.myMethod()
+}
+```
 #### 7- When to Use Inheritance<br/>
+Avoid creating inheritance hierarchies
+Favor Composition(using Mixins) over inheritance
+
 #### 8- Mixins<br/>
+In JavaScript we can only inherit from a single object. There can be only one [[Prototype]] for an object. And a class may extend only one other class.<br/>
+Mixin is a class containing methods that can be used by other classes without a need to inherit from it.<br/>
+```
+// mixin
+let sayHiMixin = {
+  sayHi() {
+    alert(`Hello ${this.name}`);
+  },
+  sayBye() {
+    alert(`Bye ${this.name}`);
+  }
+};
+
+// usage:
+class User {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+// copy the methods
+Object.assign(User.prototype, sayHiMixin);
+
+// now User can say hi
+new User("Dude").sayHi(); // Hello Dude!
+```
 
 ## `Classes`
 #### 1- ES6 Classes<br/>
