@@ -33,35 +33,35 @@ Since October 2014, HTML4 got upgraded to HTML5, along with some new “semantic
 ```
 
 # HTML5 - Overview
-**New Semantic Elements** − These are like <header>, <footer>, and <section>.<br/>
-**Forms 2.0** − Improvements to HTML web forms where new attributes have been introduced for <input> tag.<br/>
+**New Semantic Elements** These are like "header, footer, and section".<br/>
+**Forms 2.0** Improvements to HTML web forms where new attributes have been introduced for "input" tag.<br/>
 HTML4
 ```
 HTML4 input elements use the "type" attribute to specify the data type.<br/>
 1 text - A free-form text field, nominally free of line breaks.<br/>
-2	password - A free-form text field for sensitive information, nominally free of line breaks.<br/>
+2 password - A free-form text field for sensitive information, nominally free of line breaks.<br/>
 3 checkbox - A set of zero or more values from a predefined list.<br/>
-4	radio - An enumerated value.<br/>
-5	submit - A free form of button initiates form submission.<br/>
-6	file - An arbitrary file with a MIME type and optionally a file name.<br/>
-7	image - A coordinate, relative to a particular image's size, with the extra semantic that it must be the last value selected and initiates form submission.<br/>
-8	hidden - An arbitrary string that is not normally displayed to the user.<br/>
-9	select - An enumerated value, much like the radio type.<br/>
+4 radio - An enumerated value.<br/>
+5 submit - A free form of button initiates form submission.<br/>
+6 file - An arbitrary file with a MIME type and optionally a file name.<br/>
+7 image - A coordinate, relative to a particular image's size, with the extra semantic that it must be the last value selected and initiates form submission.<br/>
+8 hidden - An arbitrary string that is not normally displayed to the user.<br/>
+9 select - An enumerated value, much like the radio type.<br/>
 10 textarea - A free-form text field, nominally with no line break restrictions.<br/>
-11	button - A free form of button which can initiates any event related to button.<br/>
+11 button - A free form of button which can initiates any event related to button.<br/>
  ```
  HTML5
  ```
 1 datetime - A date and time (year, month, day, hour, minute, second, fractions of a second) encoded according to ISO 8601 with the time zone set to UTC.<br/>
-2	datetime-local - A date and time (year, month, day, hour, minute, second, fractions of a second) encoded according to ISO 8601, with no time zone information.<br/>
-3	date - A date (year, month, day) encoded according to ISO 8601.<br/>
-4	month - A date consisting of a year and a month encoded according to ISO 8601.<br/>
-5	week - A date consisting of a year and a week number encoded according to ISO 8601.<br/>
-6	time - A time (hour, minute, seconds, fractional seconds) encoded according to ISO 8601.<br/>
-7	number - It accepts only numerical value. The step attribute specifies the precision, defaulting to 1.<br/>
-8	range - The range type is used for input fields that should contain a value from a range of numbers.<br/>
-9	email - It accepts only email value. This type is used for input fields that should contain an e-mail address. If you try to submit a simple text, it forces to enter only email address in email@example.com format.<br/>
-10	url - It accepts only URL value. This type is used for input fields that should contain a URL address. If you try to submit a simple text, it forces to enter only URL address either in http://www.example.com format or in http://example.com format.<br/>
+2 datetime-local - A date and time (year, month, day, hour, minute, second, fractions of a second) encoded according to ISO 8601, with no time zone information.<br/>
+3 date - A date (year, month, day) encoded according to ISO 8601.<br/>
+4 month - A date consisting of a year and a month encoded according to ISO 8601.<br/>
+5 week - A date consisting of a year and a week number encoded according to ISO 8601.<br/>
+6 time - A time (hour, minute, seconds, fractional seconds) encoded according to ISO 8601.<br/>
+7 number - It accepts only numerical value. The step attribute specifies the precision, defaulting to 1.<br/>
+8 range - The range type is used for input fields that should contain a value from a range of numbers.<br/>
+9 email - It accepts only email value. This type is used for input fields that should contain an e-mail address. If you try to submit a simple text, it forces to enter only email address in email@example.com format.<br/>
+10 url - It accepts only URL value. This type is used for input fields that should contain a URL address. If you try to submit a simple text, it forces to enter only URL address either in http://www.example.com format or in http://example.com format.<br/>
  
  The '<output>' element,
  The placeholder attribute,
