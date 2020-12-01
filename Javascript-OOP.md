@@ -330,8 +330,8 @@ Cons:<br/>
 In a module, “this” is undefined
 
 #### 4- ES6 Tooling<br/>
-**Transpiler** - Translator + Compiler (ES6 => Babel => ES5) 
-** Bundler** - remove white space, comments (all JS file => Webpack => single JS file)
+**Transpiler** - Translator + Compiler (ES6 => Babel => ES5)<br/>
+**Bundler** - remove white space, comments (all JS file => Webpack => single JS file)
 
 #### 5- Babel<br/>
 #### 6- Webpack<br/>
