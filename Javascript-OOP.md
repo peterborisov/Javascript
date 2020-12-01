@@ -291,9 +291,9 @@ class B extends A{
 **Why to use?**<br/>
 Maintanability, Reuse, Abstract<br/>
 **AMD** - browser<br/>
-**CommonJS** - Node.js<br/>
+**CommonJS** - Node.js. Loading is synchronous.<br/>
 **UMD** - Browser/Node.js<br/>
-**ES6 Modules**
+**ES6 Modules** Import can be asynchronous<br/>
 
 #### 2- CommonJS Modules<br/>
 ```
