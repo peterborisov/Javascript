@@ -1,23 +1,23 @@
-[Constants] (#Constants)
-[Scoping] (#Scoping)
-[Arrow Functions] (#Arrow-Functions)
-[Extended Parameter Handling] (#Extended-Parameter-Handling)
-[Template Literals] (#Template-Literals)
-[Extended Literals] (#Extended-Literals)
-[Enhanced Regular Expression] (#Enhanced-Regular-Expression)
-[Enhanced Object Properties] (#Enhanced-Object-Properties)
-[Destructuring Assignment] (#Destructuring-Assignment)
-[Modules] (#Modules)
-[Classes] (#Classes)
-[Symbol Type] (#Symbol-Type)
-[Iterators] (#Iterators)
-[Generators] (#Generators)
-[Map/Set & WeakMap/WeakSet] (#Map-Set)
-[Typed Arrays] (#Typed-Arrays)
-[New Built-In Methods] (#New-Methods)
-[Promises] (#Promises)
-[Meta-Programming] (#Meta-Programming)
-[Internationalization & Localization] (#Internationalization-Localization)
+[Constants](#Constants)<br/>
+[Scoping](#Scoping)<br/>
+[Arrow Functions](#Arrow-Functions)<br/>
+[Extended Parameter Handling](#Extended-Parameter-Handling)<br/>
+[Template Literals](#Template-Literals)<br/>
+[Extended Literals](#Extended-Literals)<br/>
+[Enhanced Regular Expression](#Enhanced-Regular-Expression)<br/>
+[Enhanced Object Properties](#Enhanced-Object-Properties)<br/>
+[Destructuring Assignment](#Destructuring-Assignment)<br/>
+[Modules](#Modules)<br/>
+[Classes](#Classes)<br/>
+[Symbol Type](#Symbol-Type)<br/>
+[Iterators](#Iterators)<br/>
+[Generators](#Generators)<br/>
+[Map/Set & WeakMap/WeakSet](#Map-Set)<br/>
+[Typed Arrays](#Typed-Arrays)<br/>
+[New Built-In Methods](#New-Methods)<br/>
+[Promises](#Promises)<br/>
+[Meta-Programming](#Meta-Programming)<br/>
+[Internationalization & Localization](#Internationalization-Localization)<br/>
 
 
 #### `Constants`
