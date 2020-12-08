@@ -11,7 +11,7 @@ The main idea behind the flex layout is to give the container the ability to alt
 Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.
 ```
 
-### `Basics & Terminology`
+### `Basics-&-Terminology`
 **flex container** - parent element.<br/>
 **flex items** - child elements.<br/>
 **flex-flow directions** - the flex layout is based on it.<br/>
@@ -22,7 +22,7 @@ Flexbox layout is most appropriate to the components of an application, and smal
 **cross-start | cross-end** – Flex lines are filled with items and placed into the container starting on the cross-start side of the flex container and going toward the cross-end side.<br/>
 **cross size** – The width or height of a flex item, whichever is in the cross dimension.<br/>
 
-### `Properties for flex container`
+### `Properties-for-flex-container`
 **display** - This defines a flex container, inline or block depending on the given value.<br/>
 ```
 display: flex; /* or inline-flex */
@@ -52,7 +52,7 @@ justify-content: flex-start | flex-end | center | space-between | space-around |
   align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
 ```
 
-### `Properties for flex items`
+### `Properties-for-flex-items`
 **order** -  Controls the order in which they appear in the flex container.<br/>
 ```
  order: 5; /* default is 0 */
