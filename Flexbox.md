@@ -1,7 +1,7 @@
- [Background](#background)
- [Basics & Terminology](#basics-&-terminology)
- [Properties for flex container](#properties-for-flex-container)
- [Properties for flex items](#properties-for-flex-items)
+ [Background](#background)<br/>
+ [Basics & Terminology](#basics-&-terminology)<br/>
+ [Properties for flex container](#properties-for-flex-container)<br/>
+ [Properties for flex items](#properties-for-flex-items)<br/>
 
 ### `background`
 ```
