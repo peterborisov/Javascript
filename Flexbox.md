@@ -1,11 +1,12 @@
 ## [Background](#Background)
 ## [Basics & Terminology](#Basics-&-Terminology)
-## [Properties for the Parent (flex container)](#Properties for the Parent (flex container))
-## [Properties for the Children (flex items)](#Properties for the Children (flex items))
+## [Properties for flex container](#Properties-for-flex-container)
+## [Properties for flex items](#Properties-for-flex-items)
 
 ### `Background`
 ```
-The Flexbox Layout (Flexible Box) module (a W3C Candidate Recommendation as of October 2017) aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word “flex”).
+The Flexbox Layout (Flexible Box) module (a W3C Candidate Recommendation as of October 2017) aims at providing a more efficient way to lay out, 
+align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word “flex”).
 The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to best fill the available space.
 Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.
 ```
@@ -21,7 +22,7 @@ Flexbox layout is most appropriate to the components of an application, and smal
 **cross-start | cross-end** – Flex lines are filled with items and placed into the container starting on the cross-start side of the flex container and going toward the cross-end side.<br/>
 **cross size** – The width or height of a flex item, whichever is in the cross dimension.<br/>
 
-### `Properties for the Parent (flex container)`
+### `Properties for flex container`
 **display** - This defines a flex container, inline or block depending on the given value.<br/>
 ```
 display: flex; /* or inline-flex */
@@ -51,7 +52,7 @@ justify-content: flex-start | flex-end | center | space-between | space-around |
   align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
 ```
 
-### `Properties for the Children (flex items)`
+### `Properties for flex items`
 **order** -  Controls the order in which they appear in the flex container.<br/>
 ```
  order: 5; /* default is 0 */
