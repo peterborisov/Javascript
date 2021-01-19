@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05.Countdown</title>
+</head>
+
+<body>
+    <input type="text" id="time" style="border:3px solid blue; text-align:center; font-size:2em;" disabled="true" />
+    <script>
+        window.onload = function () {
+            countdown(3);
+        }
+
+        function countdown(totalSeconds) {
+            setInterval(() => {
+                let time = document.getElementById('time');
+                let seconds = totalSeconds % 60;
+                totalSeconds--;
+                time.value = `${Math.floor((totalSeconds / 60))}:${(seconds < 10 ? '0' + seconds : seconds)}`;
+            }, 1000);
+        }
+    </script>
+</body>
+
+</html>
