@@ -1,16 +1,20 @@
-function personalBMI(...args){
+function personalBMI(...args) {
+    let [name, age, weight, height] = args;
     let obj = {
-        name: args[0],
-        personalInfo : {
-            age: args[1],
-            weight: args[2],
-            height: args[3]     
+        name,
+        personalInfo: {
+            age,
+            weight,
+            height
         },
-        BMI: args[2] / Math.sqrt(args[3]/ 100),
-        status: 'normal'
+        BMI: Math.round(weight / (height * height / 10000)),
     }
+    obj['status'] = obj.BMI < 18.5 ? 'underweight' : obj.BMI < 25 ?
+    'normal' : obj.BMI < 30 ? 'overweight' : 'obese';
 
+    obj.status === 'obese' ? obj['recommendation'] = 'admission required' : '';
+    
     return obj;
 }
 
-console.log(personalBMI('Peter', 29, 75, 182))
+console.log(personalBMI('Peter', 29, 75, 82))
