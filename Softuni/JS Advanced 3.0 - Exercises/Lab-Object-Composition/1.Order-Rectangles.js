@@ -1,15 +1,22 @@
 function orderRectangle(args) {
     let result = []
     args.map(el => {
+        [width, height] = el;
         let obj = {
-            width: el[0],
-            height: el[1],
-            area: () => {},
-            compareTo: (other) => {}
+            width,
+            height,
+            area: () => {
+                return this.width * this.height;
+            },
+            compareTo: function (other) {
+                return other.area() - this.area() || other.width - this.width;
+            }
         }
+
         result.push(obj)
     })
-    return result;
+    let sortedRects = result.sort((a, b) => a.compareTo(b));
+    return sortedRects;
 }
 
 console.log(orderRectangle([[10, 5], [5, 12]]))
