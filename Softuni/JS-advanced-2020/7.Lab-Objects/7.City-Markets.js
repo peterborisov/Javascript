@@ -1,30 +1,19 @@
 function cityMarkets(args) {
-    let map = new Map();
+    let result = new Map();
+    args.map(el => {
+        let [town, item, amountOfSales, priceForOneUnit] = el.split(/[->:]/).filter(el => el !== '');
+        let totalAmount = +(amountOfSales) * +(priceForOneUnit);
+        !result.has(town) ? result.set(town, new Map()) : '';
+        !result.get(town).has(item) ? result.get(town).set(item, 0) : '';
+        result.get(town).set(item, result.get(town).get(item) + totalAmount);
+    })
 
-    let regex = /->/;
-    for (let i = 0; i < args.length; i++) {
-        const element = args[i];
-        let splitedEement = element.split(regex),
-            town = splitedEement[0],
-            item = splitedEement[1],
-            amountOfSales = splitedEement[2].split(':'),
-            totalAmount = Number(amountOfSales[0] * Number(amountOfSales[1]));
-
-        if (!map.has(town)) {
-            map.set(town, new Map());
-        }
-        if (!map.get(town).has(item)) {
-            map.get(town).set(item, 0);
-        }
-        map.get(town).set(item, map.get(town).get(item) + totalAmount);
-    }
-
-    for (let [town] of map) {
-        console.log(`Town - ${town}`);
-        for (let [item, totalAmount] of map.get(town)) {
-            console.log(`$$$${item.trim()} : ${totalAmount}`);
-        }
-    }
+    result.forEach((key, value) => {
+        console.log(`Town - ${value}`);
+        key.forEach((key, value) => {
+            console.log(`$$$${value.trim()} : ${key}`);
+        })
+    })
 }
 
 cityMarkets(

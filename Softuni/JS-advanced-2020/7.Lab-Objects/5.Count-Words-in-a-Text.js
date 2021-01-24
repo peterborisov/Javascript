@@ -1,19 +1,13 @@
 function countWordInText(args) {
-    //fix error .split() is not function
-    args = args + '';
-
     let regex = /\W/;
-    let words = args.split(regex);
+    let words = args.toString().split(regex);
     let result = {};
 
-    for (let i = 0; i < words.length; i++) {
-        let word = words[i];
-        if (!result.hasOwnProperty(word) && word !='') {
-            result[word] = 1;
-        } else if (result.hasOwnProperty(word)) {
-            result[word]++;
-        }
-    }
+    words
+    .filter(el => el !='')
+    .map(el => {
+        !result.hasOwnProperty(el) ?  result[el] = 1 : result[el]++;
+    })
 
     console.log(JSON.stringify(result));
 }

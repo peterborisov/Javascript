@@ -1,22 +1,15 @@
 function sumByTown(args) {
-
-    let result = {};
-    for (let i = 0; i < args.length; i++) {
-        let element = args[i];
-        let elementValue = Number(args[i + 1]);
-        if (i % 2 === 0) {
-            if (!result.hasOwnProperty(element)) {
-                result[element] = Number(elementValue);
-            } else if (result.hasOwnProperty(element)) {
-                result[element] += elementValue;
-            }
+    let result = {}
+    args.map((el, index) => {
+        let value = +(args[index + 1]);
+        if (index % 2 === 0) {
+            !result.hasOwnProperty(el) ? result[el] = value : result[el] += value;
         }
-    }
-
-   console.log(JSON.stringify(result));
+    })
+    return JSON.stringify(result)
 }
 
-sumByTown(
+console.log(sumByTown(
     ['Sofia',
         '20',
         'Varna',
@@ -24,4 +17,4 @@ sumByTown(
         'Sofia',
         '5',
         'Varna',
-        '4']);
+        '4']));

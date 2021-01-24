@@ -1,5 +1,6 @@
 function scoreToHTML(args) {
     let objArr = JSON.parse(args);
+    console.log(objArr)
     console.log('<table>');
     console.log('   <tr><th>name</th><th>score</th></tr>');
     for (let obj of objArr) {
