@@ -1,23 +1,11 @@
 class Rat {
-
     constructor(name) {
         this.name = name;
         this.rats = [];
     }
-
-    toString() {
-        return this.name + this.rats.map(rat => `\n##${rat.name}`).join('')
-    }
-
-    unite(otherRat) {
-        if (otherRat instanceof Rat) {
-            this.rats.push(otherRat);
-        }
-    }
-
-    getRats() {
-        return this.rats;
-    }
+    toString() { return this.name + this.rats.map(rat => `\n##${rat.name}`).join('') }
+    unite(otherRat) { otherRat instanceof Rat ? this.rats.push(otherRat) : ''; }
+    getRats() { return this.rats; }
 }
 
 let firstRat = new Rat("Peter");

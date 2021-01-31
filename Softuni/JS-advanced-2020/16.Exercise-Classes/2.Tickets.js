@@ -1,4 +1,4 @@
-function tickets(...args) {
+function tickets(arr, sortingCriteria) {
     class Ticket {
         constructor(destination, price, status) {
             this.destination = destination;
@@ -9,22 +9,24 @@ function tickets(...args) {
 
     let ticketsArr = [];
 
-    for (el of args[0]) {
-        el = el.split('|');
-        let newTicket = new Ticket(el[0], Number(el[1]), el[2]);
+    arr.map(el => {
+        let [destination, price, status] = el.split('|');
+        let newTicket = new Ticket(destination, +price, status);
         ticketsArr.push(newTicket)
+    })
+
+    let command = {
+        destination: () => { return ticketsArr.sort((a, b) => a.destination.localeCompare(b.destination)) },
+        price: () => { return ticketsArr.sort((a, b) => a.price - b.price) },
+        status: () => { return ticketsArr.sort((a, b) => a.status.localeCompare(b.status)) }
     }
-    
-    switch (args[1]) {
-        case "destination":
-            ticketsArr.sort((a, b) => a.destination.localeCompare(b.destination));
-            break;
-        case "price":
-            ticketsArr.sort((a, b) => a.price - b.price);
-            break;
-        case "status":
-            ticketsArr.sort((a, b) => a.status.localeCompare(b.status));
-            break;
-    }
-    return ticketsArr;
+    return command[sortingCriteria]();
 }
+
+console.log(tickets(
+    ['Philadelphia|94.20|available',
+        'New York City|95.99|available',
+        'New York City|95.99|sold',
+        'Boston|126.20|departed'],
+    'destination'
+))
